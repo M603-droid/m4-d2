@@ -2,11 +2,13 @@
   height: 100vh;
 }
 footer {
-  position: absolute;
   width: 100%;
   bottom: 0px;
   background-color: rgb(97, 93, 93);
 }
 .book-images {
   width: 33%;
+}
+.my-jumbo {
+  background-image: url("./images/lib.jpg");
 }

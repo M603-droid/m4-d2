@@ -4,7 +4,9 @@ import './App.css';
 import MyNav from './components/MyNav'
 import MyFooter from './components/MyFooter'
 import MyJumbotron from './components/MyJumbotron';
-import LatesrRelease from './components/LatestRelease';
+import SingleBook from './components/SingleBook';
+import horror from './data/horror.json'
+
 
 
 function App() {
@@ -15,7 +17,8 @@ function App() {
 
     <MyFooter/>
     <MyJumbotron/>
-    <LatesrRelease/>
+    <SingleBook book = {horror[0]}/>
+
 
   
   </> );
