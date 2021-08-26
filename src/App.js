@@ -4,6 +4,7 @@ import './App.css';
 import MyNav from './components/MyNav'
 import MyFooter from './components/MyFooter'
 import MyJumbotron from './components/MyJumbotron';
+import LatesrRelease from './components/LatestRelease';
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
 
     <MyFooter/>
     <MyJumbotron/>
+    <LatesrRelease/>
+
   
   </> );
 }
