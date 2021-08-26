@@ -1,13 +1,14 @@
 import React from 'react'
-import {card , Button} from 'react-bootstrap'
+import {Button , Card} from 'react-bootstrap'
+import horror from '../data/horror.json'
 
 
 export default function LatesrRelease(){
 
-    return <div>{
+    return <div className = "d-flex flex-wrap">{
         horror.map(book => {
-            return <Card>
-            <Card.Img variant="top" src= {book.img} />
+            return <Card className = "book-images">
+            <Card.Img variant="top"  src= {book.img} />
             <Card.Body>
             <Card.Title>{book.Title}</Card.Title>
 
