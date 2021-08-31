@@ -5,6 +5,7 @@ import MyNav from './components/MyNav'
 import MyFooter from './components/MyFooter'
 import MyJumbotron from './components/MyJumbotron';
 import SingleBook from './components/SingleBook';
+import BookList from './components/BookList';
 import horror from './data/horror.json'
 
 
@@ -18,6 +19,7 @@ function App() {
     <MyFooter/>
     <MyJumbotron/>
     <SingleBook book = {horror[0]}/>
+    <BookList books={horror} />
 
 
   

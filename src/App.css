@@ -8,6 +8,7 @@ footer {
 }
 .book-images {
   width: 33%;
+  align-content: center;
 }
 .my-jumbo {
   background-image: url("./images/lib.jpg");
