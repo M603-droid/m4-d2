@@ -6,7 +6,8 @@ import MyFooter from './components/MyFooter'
 import MyJumbotron from './components/MyJumbotron';
 import SingleBook from './components/SingleBook';
 import BookList from './components/BookList';
-import horror from './data/horror.json'
+import horror from './data/horror.json';
+import CommentArea from '.components/CommentArea';
 
 
 
