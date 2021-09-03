@@ -1,6 +1,4 @@
 import { Component } from 'react'
-import CommentList from './CommentList'
-import AddComment from './AddComment'
 import Loading from './Loading'
 import Error from './Error'
 
